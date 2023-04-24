@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <manifest>
-
- <!-- Trees -->
- <project path="device/10or/G" name="RahulPalXDA/android_device_10or_G.git" remote="github" revision="lineage-18.1" />
-
- <project path="vendor/10or" name="RahulPalXDA/android_vendor_10or.git" remote="github" revision="master" />
-
- <project path="kernel/10or/G" name="10orDevs/android_kernel_10or_G-4.9.git" remote="github" revision="lineage-18.1" />
- 
+   
+   <!-- Trees -->
+   <project path="device/xiaomi/rosemary" name="alpha15down/device_xiaomi_rosemary" remote="github" revision="evolutionx-7.8"/>
+   
+   <project path="kernel/xiaomi/mt6785" name="alpha15down/kernel_xiaomi_mt6785" remote="github" revision="lineage-20"/>
+   
+   <project path="vendor/xiaomi/rosemary" name="alpha15down/vendor_xiaomi_rosemary" remote="github" revision="evolutionx-7.8"/>
+   
 </manifest>
