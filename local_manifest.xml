@@ -13,7 +13,7 @@
    <project path="vendor/xiaomi/rosemary" name="alpha15down/-proprietary_vendor_xiaomi_rosemary" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- SePolicy -->
-   <project path="device/mediatek/sepolicy_vndr" name="alpha15down/device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
+   <project path="device/mediatek/sepolicy_vndr" name="alpha15down/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
    
    <!-- Hardware -->
    <project path="hardware/mediatek" name="alpha15down/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
