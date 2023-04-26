@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-   
+   <!-- Remote -->
+   <remote name="lab" fetch="https://gitlab.com"/>
+   <remote name="hub" fetch="https://github.com"/>
+
    <!-- Trees -->
-   <project path="device/xiaomi/rosemary" name="alpha15down/device_xiaomi_rosemary" remote="github" revision="lineage-20"/>
+   <project path="device/xiaomi/rosemary" name="alpha15down/android_device_xiaomi_rosemary" remote="hub" revision="lineage-20" clone-depth="1"/>
    
-   <project path="kernel/xiaomi/mt6785" name="alpha15down/kernel_xiaomi_mt6785" remote="github" revision="lineage-20"/>
+   <project path="kernel/xiaomi/mt6785" name="alpha15down/android_kernel_xiaomi_mt6785" remote="hub" revision="lineage-20" clone-depth="1"/>
    
-   <project path="vendor/xiaomi/rosemary" name="alpha15down/vendor_xiaomi_rosemary" remote="github" revision="lineage-20"/>
+   <project path="vendor/xiaomi/rosemary" name="alpha15down/-proprietary_vendor_xiaomi_rosemary" remote="hub" revision="lineage-20" clone-depth="1"/>
    
+   <!-- SePolicy -->
+   <project path="device/mediatek/sepolicy_vndr" name="alpha15down/device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-20" clone-depth="1"/>
+   
+   <!-- Hardware -->
+   <project path="hardware/mediatek" name="alpha15down/android_hardware_mediatek" remote="hub" revision="lineage-20" clone-depth="1"/>
+   
+   <project path="hardware/xiaomi" name="alpha15down/android_hardware_xiaomi" remote="hub" revision="lineage-20"/>
+
 </manifest>
